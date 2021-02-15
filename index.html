@@ -3,81 +3,92 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+
+  <!-- bootstrap link -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
+
+  <!-- JavaScript link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+  </script>
+
+  <!-- custom css -->
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+  <title>Customer Testimonial</title>
 </head>
 
 <body>
-  <div class="top">
-    <h3>10,000+ of our users love our product.</h3>
-    <p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services</p>
-  </div>
-  <div class="ratings">
-    <span>
-      <div class="rating-reviews">
-        <table>
-          <tr>
-            <td>⭐⭐⭐⭐⭐</td>
-            <td>Rated 5 stars in Reviews</td>
-          </tr>
-        </table>
-      </div>
-      <div class="rating-reportGuru">
-        <table>
-          <tr>
-            <td>⭐⭐⭐⭐⭐</td>
-            <td>Rated 5 stars in Report Guru</td>
-          </tr>
-        </table>
-      </div>
-      <div class="rating-BestTech">
-        <table>
-          <tr>
-            <td>⭐⭐⭐⭐⭐</td>
-            <td>Rated 5 stars in BestTech</td>
-          </tr>
-        </table>
-      </div>
-    </span>
-  </div>
-  <div class="reviewer-one">
-    <table cellspacing = "10">
-      <tr>
-        <td><img class="img" src="images/buyer1.png" alt="buyer1 img" height="100px" width="100px"></td>
-        <td>
-          <p class="buyerName">Colton Smith</p>
-          <p class="buyerCategory">Verified Buyer</p>
-          <p>"We needed the same printed design as the one we had ordered. Not only did they find the color. They delivered in on time. Excellent!""</p>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <div class="reviewer-two">
-    <table cellspacing = "10">
-      <tr>
-        <td><img class = "img" src="images/buyer2.png" alt="buyer2 image" height="100px" width="100px"></td>
-        <td>
-          <p class="buyerName">Irene Roberts</p>
-          <p class="buyerCategory">Verified Buyer</p>
-          <p>"We needed the same printed design as the one we had ordered. Not only did they find the color. They delivered in on time. Excellent!""</p>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <div class="reviewer-three">
-    <table cellspacing = "10">
-      <tr>
-        <td><img class= "img" src="images/buyer3.png" alt=""  height="100px" width="100px"></td>
-        <td>
-          <p class="buyerName">Ann Wallace</p>
-          <p class="buyerCategory">Verified Buyer</p>
-          <p>"We needed the same printed design as the one we had ordered. Not only did they find the color. They delivered in on time. Excellent!""</p>
-        </td>
 
-      </tr>
-    </table>
+  <div class="row titlebar">
+    <div class="col-lg-4 col-md-4">
+      <h1>10,000+ of our users love our product.</h1>
+      <p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services</p>
+    </div>
+
+    <div class="col-lg-4 col-md-4">
+      <div class="ratings">
+        <span>
+          <div class="rating-reviews">
+            <table>
+              <tr>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>Rated 5 stars in Reviews</td>
+              </tr>
+            </table>
+          </div>
+          <div class="rating-reviews">
+            <table>
+              <tr>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>Rated 5 stars in Report Guru</td>
+              </tr>
+            </table>
+          </div>
+          <div class="rating-reviews">
+            <table>
+              <tr>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>Rated 5 stars in BestTech</td>
+              </tr>
+            </table>
+          </div>
+
+        </span>
+      </div>
+    </div>
   </div>
+  <div class="row reviewrow">
+    <div class="col-lg-3 col-md-2 card">
+      <div class="card-body">
+        <img class="img" src="images/buyer1.png" alt="buyer1 img" height="100px" width="100px">
+        <h5 class="card-title">Colton Smith</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Verified Buyer</h6>
+        <!-- <p class="buyerName">Colton Smith</p>
+      <p class="buyerCategory">Verified Buyer</p> -->
+        <p class="card-text">""We needed the same printed design as the one we had ordered. Not only did they find the color. They delivered in on time. Excellent!""</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-2 card">
+      <div class="card-body">
+        <img class="img" src="images/buyer2.png" alt="buyer2 image" height="100px" width="100px">
+        <h5 class="card-title">Irene Roberts</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Verified Buyer</h6>
+        <p>"We needed the same printed design as the one we had ordered. Not only did they find the color. They delivered in on time. Excellent!""</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-2 card">
+      <div class="card-body">
+        <img class="img" src="images/buyer3.png" alt="" height="100px" width="100px">
+        <h5 class="card-title">Ann Wallace</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Verified Buyer</h6>
+        <p>"We needed the same printed design as the one we had ordered. Not only did they find the color. They delivered in on time. Excellent!""</p>
+      </div>
+    </div>
 </body>
 
 </html>
